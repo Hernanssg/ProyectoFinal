@@ -1,0 +1,329 @@
+*reset {
+    margin: 0px;
+    padding: 0px;
+    height: 0px;
+
+}
+
+
+
+/* Estilos Generales */
+
+h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    color: white;
+    text-align: center;
+}
+
+h2 {
+    font-size: 20px;
+    color: white;
+    padding: 3px;
+}
+
+h4 {
+    font-size: 18px;
+    color: white;
+
+
+
+}
+
+h5 {
+    color: white;
+}
+
+p {
+    padding: 2px;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+u {
+    color: green;
+}
+
+.subtitulo {
+    text-decoration: underline;
+}
+
+
+/*Fuente local  @font-face  */
+/* Fuente Externa */
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,700;1,400&display=swap'); */
+/* font-family: 'Roboto', sans-serif; */
+ul li {
+    color: white;
+}
+
+main ul li {
+    font-size: 18px;
+}
+
+.reset {
+    padding: 23px;
+    position: relative;
+    top: 20px;
+}
+
+.reset2 {
+    position: relative;
+    top: 120px;
+    right: 1690px;
+    color: rgb(136, 27, 130);
+    padding: 5px;
+}
+
+/* navbar */
+nav ul {
+    background-color: dimgray;
+    color: white !important;
+    padding: 1px !important;
+
+
+}
+
+nav ul li {
+    background-color: dimgray;
+    color: white !important;
+    display: inline;
+    border: 1px solid white;
+    padding: 3px;
+    margin: 10px;
+    width: 300px;
+    align-items: center;
+
+}
+
+
+/* Absolut- relative / Posiciones  */
+
+
+/* Unidad de medida absoluta */
+/* width: 20px; */
+
+/* Rebalse Overflow Hidden / Overflow Scroll(auto)  */
+
+.condiciones {
+    color: white;
+    padding: 0px;
+    margin: 20px;
+}
+
+.texto {
+    padding: 5px;
+    margin: 30px;
+}
+
+.formulario {
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+body {
+    background-color: black;
+
+}
+
+
+
+footer {
+    text-decoration: white !important; 
+    width: 410px;
+    border: 50px solid black;
+   text-decoration-color: wheat;
+}
+
+.footer-flex {
+    text-decoration: white !important; 
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    text-decoration-color: wheat;
+}
+
+
+
+/* Estilos Imagenes */
+
+
+.foto3 {
+    margin-left: 550px;
+}
+
+.foto4 {
+    position: relative;
+    margin-left: 525px;
+    top: 10px;
+}
+
+/* Imagenes
+background - imagen : url ../imagenes <busqueda del imagen.
+background - size 50%; < tamaño del imagen.
+background - repeat : no-repeat; < que no se repita la imagen
+background - position < posicion. */
+
+
+/* Estilos de html */
+
+
+.texto1 {
+    position: relative;
+    left: -680px;
+    top: -500px;
+
+
+}
+
+
+.header-flex {
+
+    display: flex;
+
+
+}
+
+.container {  display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-auto-rows: 1fr;
+    gap: 1px 0px;
+    grid-auto-flow: column dense;
+    grid-template-areas:
+      "Foto1 Foto2"
+      "Sorteo1 Sorteo2";
+ justify-content: space-around;     
+ max-width: 100vw;
+}
+  
+  .Foto1 { grid-area: Foto1;}
+
+  .Foto2 { grid-area: Foto2;}
+  
+  .Sorteo1 { grid-area: Sorteo1;}
+    
+  .Sorteo2 { grid-area: Sorteo2;}
+  
+  
+
+.ul-flex {
+    display: flex;
+    padding: 0;
+    height: 75px;
+    align-items: center;
+    width: 2000px;
+}
+
+.div-flex {
+    max-width: 100%;
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    list-style: none;
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.transiciones {
+    transform: translate(700px);
+    color: white;
+    padding: 30px;
+    background-color: black;
+    transition: 2s;
+    font-size: 30px;
+    text-decoration: underline color green;
+}
+
+
+.transiciones:hover {
+    background-color: green;
+    font-weight: bold;
+    text-align: center;
+    transform: scale(1.1);
+}
+
+.transiciones-contacto{
+    transform: translate(15px);
+    padding: 5px;
+    background-color: black;
+    transition: 1s;
+    font-size: 20px;
+    text-decoration: underline color green;
+
+}
+
+.section {
+    padding: 30px;
+    height: 10px;
+    font-size: 17px;
+    color: white;
+    display: flex;
+    align-content: stretch;
+    justify-content: space-around;
+    align-items: stretch;
+}
+
+.comentario {
+    width: 1500px;
+    padding: 10px;
+    margin: 25px;
+}
+
+.boton {
+    position: relative;
+    right: -92px;
+    width: 400px;
+}
+
+/* Mobile last */
+
+.mobile-last u {
+    color: green
+}
+
+
+
+/* ANCHO MAXIMO  INDEX */
+@media (max-width: 768px) {
+    .transiciones {
+        max-width: 760px;
+        transform: translate(250px);
+    }
+u {
+    color: yellow;
+}
+
+img{ width: 500px;
+
+}
+}
+
+/* ANCHO MAXIMO PRODUCTOS */
+    
+@media (max-width: 414px) {
+    
+
+img{
+    width: 415px;
+}
+.container-fluid{
+    width: 415px;
+
+}
+    
+u {
+    color: red;
+}
+main ul li{
+    width: 100%;
+    
+}
+}
