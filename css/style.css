@@ -45,6 +45,9 @@ u {
     color: green;
 }
 
+a{
+    color: white;
+}
 .subtitulo {
     text-decoration: underline;
 }
@@ -66,21 +69,30 @@ main ul li {
     padding: 23px;
     position: relative;
     top: 20px;
+    font-size: 17px;
 }
 
 .reset2 {
     position: relative;
     top: 120px;
     right: 1690px;
-    color: rgb(136, 27, 130);
+    color: white;
     padding: 5px;
+    font-size: 17px;
+}
+
+
+.navbar-nav{
+    width: 1780px;
+    display: flex;
+    justify-content: space-evenly;
+    
 }
 
 /* navbar */
 nav ul {
     background-color: dimgray;
-    color: white !important;
-    padding: 1px !important;
+    padding: 1px ;
 
 
 }
@@ -121,10 +133,19 @@ nav ul li {
     color: white;
     padding: 15px;
     display: flex;
-    justify-content: flex-end;
     align-items: center;
-    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    font-size: 20px;
 }
+
+.condiciones{
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+flex-direction: column;
+}
+
+
 
 body {
     background-color: black;
@@ -137,17 +158,16 @@ footer {
     text-decoration: white !important; 
     width: 410px;
     border: 50px solid black;
-   text-decoration-color: wheat;
+   text-decoration-color: white;
 }
 
 .footer-flex {
-    text-decoration: white !important; 
     padding: 5px;
     display: flex;
     flex-direction: row;
     width: 100%;
     justify-content: space-between;
-    text-decoration-color: wheat;
+    background-color: #252426;
 }
 
 
@@ -283,16 +303,19 @@ background - position < posicion. */
     width: 400px;
 }
 
+
+
+
+
+
 /* Mobile last */
 
 .mobile-last u {
-    color: green
-}
-
+    color: green}
 
 
 /* ANCHO MAXIMO  INDEX */
-@media (max-width: 768px) {
+@media (max-width: 768px){
     .transiciones {
         max-width: 760px;
         transform: translate(250px);
@@ -301,9 +324,10 @@ u {
     color: yellow;
 }
 
-img{ width: 500px;
+img{ width: 500px;}
 
-}
+.navbar-nav{}
+
 }
 
 /* ANCHO MAXIMO PRODUCTOS */
