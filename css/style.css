@@ -86,7 +86,7 @@ main ul li {
     width: 1780px;
     display: flex;
     justify-content: space-evenly;
-    
+
 }
 
 /* navbar */
@@ -109,9 +109,11 @@ nav ul li {
 
 }
 
-.nav-link:hover{
-    color: rgb(104, 161, 104);
+
+.nav-item:hover{
+    background-color: rgb(83, 94, 83);
     transition:.1s;
+    transform: scale(1.1);
 }
 
 .input:focus{
@@ -179,7 +181,7 @@ body {
 
 
 footer {
-    text-decoration: white !important; 
+    text-decoration: white !important;
     width: 410px;
     border: 50px solid black;
    text-decoration-color: white;
@@ -244,19 +246,19 @@ background - position < posicion. */
     grid-template-areas:
       "Foto1 Foto2"
       "Sorteo1 Sorteo2";
- justify-content: space-around;     
+ justify-content: space-around;
  max-width: 100vw;
 }
-  
+
   .Foto1 { grid-area: Foto1;}
 
   .Foto2 { grid-area: Foto2;}
-  
+
   .Sorteo1 { grid-area: Sorteo1;}
-    
+
   .Sorteo2 { grid-area: Sorteo2;}
-  
-  
+
+
 
 .ul-flex {
     display: flex;
@@ -355,15 +357,15 @@ img{ width: 500px;}
         display: flex;
         justify-content: space-evenly;
     }
-    
+
 }
 
 
 
 /* ANCHO MAXIMO PRODUCTOS */
-    
+
 @media (max-width: 414px) {
-    
+
 
 img{
     width: 415px;
@@ -372,12 +374,12 @@ img{
     width: 415px;
 
 }
-    
+
 u {
     color: red;
 }
 main ul li{
     width: 100%;
-    
+
 }
 }
