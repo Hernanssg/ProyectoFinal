@@ -156,13 +156,15 @@ font-size: 20px;
 }
 
 .formulario {
+    margin: 0;
+    padding: 0;
     color: white;
-    padding: 15px;
     display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    font-size: 20px;
+    font-size: 18px;
+    flex-direction: row;
+    justify-content: center;
 }
+
 
 .condiciones{
 display: flex;
